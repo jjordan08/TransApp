@@ -11,8 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".adultos"></activity>
         <activity android:name=".Ninos" />
-        <activity android:name=".start" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".start" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
