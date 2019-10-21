@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".adultos"></activity>
+        <activity android:name=".preventivas"></activity>
+        <activity android:name=".Seleccion_Senales" />
+        <activity android:name=".Senales" />
+        <activity android:name=".adultos" />
         <activity android:name=".Ninos" />
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".start" >
+        <activity android:name=".MainActivity" />
+        <activity android:name=".start">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

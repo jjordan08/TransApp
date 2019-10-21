@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preventivas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Señales preventivas"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="37dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="145dp"
+                android:layout_height="158dp"
+                android:onClick="buttonuno"
+                app:srcCompat="@drawable/uno"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="118dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="168dp"
+                android:layout_height="161dp"
+                app:srcCompat="@drawable/dos"
+                tools:layout_editor_absoluteX="224dp"
+                tools:layout_editor_absoluteY="118dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="168dp"
+                android:layout_height="157dp"
+                app:srcCompat="@drawable/tres"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/cuatro"
+                tools:layout_editor_absoluteX="224dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="168dp"
+                android:layout_height="147dp"
+                app:srcCompat="@drawable/cinco"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="485dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="169dp"
+                android:layout_height="147dp"
+                app:srcCompat="@drawable/seis"
+                tools:layout_editor_absoluteX="220dp"
+                tools:layout_editor_absoluteY="485dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="167dp"
+                android:layout_height="149dp"
+                app:srcCompat="@drawable/siete"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="655dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="168dp"
+                android:layout_height="146dp"
+                app:srcCompat="@drawable/ocho"
+                tools:layout_editor_absoluteX="220dp"
+                tools:layout_editor_absoluteY="655dp" />
+        </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
