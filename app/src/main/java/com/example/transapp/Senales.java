@@ -12,7 +12,11 @@ public class Senales extends AppCompatActivity {
 
     public int[] imagenes = {R.drawable.uno /*[pos0 = 1.1]*/, R.drawable.dos /*[pos0 = 1.1]*/, R.drawable.tres /*[pos0 = 1.1]*/, R.drawable.cuatro/*[pos0 = 1.1]*/,
             R.drawable.cinco /*[pos0 = 1.1]*/, R.drawable.seis /*[pos0 = 1.1]*/, R.drawable.siete /*[pos0 = 1.1]*/, R.drawable.ocho /*[pos0 = 1.1]*/,
-            R.drawable.nueve /*[pos0 = 1.1]*/};
+            R.drawable.nueve /*[pos0 = 1.1]*/,R.drawable.diez /*[pos0 = 1.1]*/,R.drawable.uno /*[pos0 = 1.1]*/, R.drawable.dos /*[pos0 = 1.1]*/, R.drawable.tres /*[pos0 = 1.1]*/, R.drawable.cuatro/*[pos0 = 1.1]*/,
+            R.drawable.cinco /*[pos0 = 1.1]*/, R.drawable.seis /*[pos0 = 1.1]*/, R.drawable.siete /*[pos0 = 1.1]*/, R.drawable.ocho /*[pos0 = 1.1]*/,
+            R.drawable.nueve /*[pos0 = 1.1]*/,R.drawable.diez /*[pos0 = 1.1]*/,R.drawable.uno /*[pos0 = 1.1]*/, R.drawable.dos /*[pos0 = 1.1]*/, R.drawable.tres /*[pos0 = 1.1]*/, R.drawable.cuatro/*[pos0 = 1.1]*/,
+            R.drawable.cinco /*[pos0 = 1.1]*/, R.drawable.seis /*[pos0 = 1.1]*/, R.drawable.siete /*[pos0 = 1.1]*/, R.drawable.ocho /*[pos0 = 1.1]*/,
+            R.drawable.nueve /*[pos0 = 1.1]*/,R.drawable.diez /*[pos0 = 1.1]*/};
 
     public int imagenNum;
     public String d1;
