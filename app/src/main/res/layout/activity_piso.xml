@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:app="http://schemas.android.com/apk/res-auto"
-
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
-
-    tools:context=".preventivas">
-
+    tools:context=".piso">
 
 
     <ScrollView
@@ -50,7 +43,7 @@
 
                 android:layout_height="wrap_content"
 
-                android:text="Señales preventivas"
+                android:text="Señales de Piso"
 
                 android:textAlignment="center"
 
@@ -71,7 +64,7 @@
 
                 android:onClick="buttonUno"
 
-                app:srcCompat="@drawable/puno"
+                app:srcCompat="@drawable/piuno"
 
                 tools:layout_editor_absoluteX="16dp"
 
@@ -88,7 +81,7 @@
 
                 android:onClick="buttonDos"
 
-                app:srcCompat="@drawable/pdos"
+                app:srcCompat="@drawable/pidos"
 
                 tools:layout_editor_absoluteX="224dp"
 
@@ -105,7 +98,7 @@
 
                 android:onClick="buttonTres"
 
-                app:srcCompat="@drawable/ptres"
+                app:srcCompat="@drawable/pitres"
 
                 tools:layout_editor_absoluteX="16dp"
 
@@ -122,7 +115,7 @@
 
                 android:onClick="buttonCuatro"
 
-                app:srcCompat="@drawable/pcuatro"
+                app:srcCompat="@drawable/picuatro"
 
                 tools:layout_editor_absoluteX="224dp"
 
@@ -139,7 +132,7 @@
 
                 android:onClick="buttonCinco"
 
-                app:srcCompat="@drawable/pcinco"
+                app:srcCompat="@drawable/picinco"
 
                 tools:layout_editor_absoluteX="16dp"
 
@@ -156,7 +149,7 @@
 
                 android:onClick="buttonSeis"
 
-                app:srcCompat="@drawable/pseis"
+                app:srcCompat="@drawable/piseis"
 
                 tools:layout_editor_absoluteX="220dp"
 
@@ -173,7 +166,7 @@
 
                 android:onClick="buttonSiete"
 
-                app:srcCompat="@drawable/psiete"
+                app:srcCompat="@drawable/pisiete"
 
                 tools:layout_editor_absoluteX="16dp"
 
@@ -190,7 +183,7 @@
 
                 android:onClick="buttonOcho"
 
-                app:srcCompat="@drawable/pocho"
+                app:srcCompat="@drawable/piocho"
 
                 tools:layout_editor_absoluteX="220dp"
 
@@ -206,7 +199,7 @@
 
                 android:onClick="buttonOcho"
 
-                app:srcCompat="@drawable/pnueve"
+                app:srcCompat="@drawable/pinueve"
 
                 tools:layout_editor_absoluteX="220dp"
 
@@ -222,7 +215,7 @@
 
                 android:onClick="buttonOcho"
 
-                app:srcCompat="@drawable/pdiez"
+                app:srcCompat="@drawable/pidiez"
 
                 tools:layout_editor_absoluteX="220dp"
 

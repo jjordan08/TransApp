@@ -15,27 +15,24 @@ public class Seleccion_Senales extends AppCompatActivity {
     }
 
     public void buttonPreventivas(View view){
-        Intent planets = new Intent(Seleccion_Senales.this, preventivas.class);
-        startActivity(planets);
+        Intent intent = new Intent(Seleccion_Senales.this, preventivas.class);
+        startActivity(intent);
     }
     public void buttonReglamentarias(View view){
-        Intent planets = new Intent(Seleccion_Senales.this, adultos.class);
-        startActivity(planets);
+        Intent intent = new Intent(Seleccion_Senales.this, reglamentarias.class);
+        startActivity(intent);
     }
     public void buttonInformativas(View view){
-        Intent planets = new Intent(Seleccion_Senales.this, adultos.class);
-        startActivity(planets);
+        Intent intent = new Intent(Seleccion_Senales.this, informativas.class);
+        startActivity(intent);
     }
-    public void buttonTransitorias(View view){
-        Intent planets = new Intent(Seleccion_Senales.this, adultos.class);
-        startActivity(planets);
+    public void buttonPiso(View view){
+        Intent intent = new Intent(Seleccion_Senales.this, piso.class);
+        startActivity(intent);
     }
-    public void buttonDePiso(View view){
-        Intent planets = new Intent(Seleccion_Senales.this, adultos.class);
-        startActivity(planets);
-    }
+
     public void buttonRegresar(View view){
-        Intent planets = new Intent(Seleccion_Senales.this, adultos.class);
-        startActivity(planets);
+        Intent intent = new Intent(Seleccion_Senales.this, adultos.class);
+        startActivity(intent);
     }
 }

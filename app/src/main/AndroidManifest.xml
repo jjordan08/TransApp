@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".preventivas"></activity>
+        <activity android:name=".piso"></activity>
+        <activity android:name=".informativas" />
+        <activity android:name=".reglamentarias" />
+        <activity android:name=".preventivas" />
         <activity android:name=".Seleccion_Senales" />
         <activity android:name=".Senales" />
         <activity android:name=".adultos" />
