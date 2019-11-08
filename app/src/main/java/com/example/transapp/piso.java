@@ -81,5 +81,7 @@ public class piso extends AppCompatActivity {
         intent.putExtra("dato00", "39");
         intent.putExtra("dato01", "Curva no pronunciada a la izquierda");
         startActivity(intent);
+
+        //v0.2
     }
 }
