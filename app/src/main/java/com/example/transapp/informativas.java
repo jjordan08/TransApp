@@ -17,7 +17,7 @@ public class informativas extends AppCompatActivity {
     public void buttonUno(View view) {
         Intent intent = new Intent(informativas.this, Senales.class);
         intent.putExtra("dato00", "20");
-        intent.putExtra("dato01", "Curva no pronunciada a la izquierda");
+        intent.putExtra("dato01", "Curva no pronunciada a la izquierdaa");
         startActivity(intent);
     }
 
