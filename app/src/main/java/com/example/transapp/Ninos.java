@@ -14,14 +14,24 @@ public class Ninos extends AppCompatActivity {
         setContentView(R.layout.activity_ninos);
     }
 
-    public void buttonAtras(View view){
-        Intent atras = new Intent(Ninos.this, MainActivity.class);
-        startActivity(atras);
+    public void buttonJuego(View view){
+        Intent juego = new Intent(Ninos.this, examenes.class);
+        startActivity(juego);
     }
 
     public void buttonSenales(View view){
-        Intent atras = new Intent(Ninos.this, Seleccion_Senales.class);
-        startActivity(atras);
+        Intent senales = new Intent(Ninos.this, Seleccion_Senales.class);
+        startActivity(senales);
+    }
+
+    public void buttonNormas(View view){
+        Intent normas = new Intent(Ninos.this, normas.class);
+        startActivity(normas);
+    }
+
+    public void buttonVideos(View view){
+        Intent videos = new Intent(Ninos.this, videos.class);
+        startActivity(videos);
     }
 
 }

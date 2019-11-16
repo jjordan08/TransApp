@@ -6,12 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".start">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="411dp"
-        android:layout_height="570dp"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="359dp"
+        android:layout_height="143dp"
+        android:layout_marginBottom="28dp"
+        android:text="TransApp, es una aplicacion diseñada para el aprendizaje de las normas de transito, selecciona una opción y aprende de manera didactita."
+        android:textAlignment="center"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="316dp"
+        android:layout_height="439dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209"
         app:srcCompat="@drawable/inicio" />
 </androidx.constraintlayout.widget.ConstraintLayout>

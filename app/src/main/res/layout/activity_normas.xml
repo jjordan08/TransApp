@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".normas">
+
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TransApp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Codigo de Transito de Colombia"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+
+        android:id="@+id/scrollView2"
+        android:layout_width="353dp"
+        android:layout_height="529dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alwaysDrawnWithCache="false"
+            android:background="#2D2F31"
+            android:backgroundTint="@color/colorAccent"
+            android:visibility="visible">
+
+            ////////////////////////////////////////////////////////////////////////
+
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Titulo I - Disposiciones Generales"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Principios"
+                android:text="Capitulo I - Principios" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Autoridades"
+                android:text="Capitulo II - Autoridades" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="RegistrosInformacion"
+                android:text="Capitulo III - Registros de informacion" />
+
+            ///////////////////////////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Titulo II - Regimen Nacional de Transito"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="CentrosEnsenansa"
+                android:text="Capitulo I - centros de enseñanza automovilistiva" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="LicenciasConduccion"
+                android:text="Capitulo II - licencias de conduccion" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Vehiculos"
+                android:text="Capitulo III - vehiculos" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="LicenciasTransito"
+                android:text="Capitulo IV - Licencias de transito" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SegurosResponsabilidad"
+                android:text="Capitulo V - seguros y responsabilidad" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Placas"
+                android:text="Capitulo VI - Placas" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="RegistroNacionalAutomotor"
+                android:text="Capitulo VII - Registro nacional Automotor" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="RevisionTecnicomecanica"
+                android:text="Capitulo VIII - Revision Tecnicomecanica" />
+
+            /////////////////////////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Titulo III - Normas de Comportamiento"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ReglasGeneralesYEducacion"
+                android:text="Capitulo I - Reglas generales y educacion en el transito" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Peatones"
+                android:text="Capitulo II - Peatones" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ConduccionVehiculos"
+                android:text="Capitulo III - Conduccion de vehiculos" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ParaElTransportePublico"
+                android:text="Capitulo IV - Para el transporte publico" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ciclistasMotociclistas"
+                android:text="Capitulo V - Ciclistas y motociclistas" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="transitoDeOtrosVehiculosyAnimales"
+                android:text="Capitulo VI - Transito de otros vehiculos y animales" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="transitoDePersonasenActividadesColectivos"
+                android:text="Capitulo VII - transito de personas en actividades colectivas" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="TrabajosEventualesViaPublica"
+                android:text="Capitulo VIII - trabajos eventuales en la via publica" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ProteccionAmbiental"
+                android:text="Capitulo IX - proteccion ambiental" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ClasificacionyUsoDeLasVias"
+                android:text="Capitulo X - clasificacion y uso de las vias" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="LimitesDeVelocidad"
+                android:text="Capitulo XI - limites de velocidad" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SenalesDeTransito"
+                android:text="Capitulo XII - Señales de transito" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ProcedimientosControl"
+                android:text="Capitulo XIII - Procedimientos de control de transito" />
+
+            /////////////////////////////////////////////////////////////////////////////
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Titulo IV - Sanciones y procedimientos"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Sanciones"
+                android:text="Capitulo I - Sanciones" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sancionesPorincumplimiento"
+                android:text="Capitulo II - Sanciones por el incumplimiento de las normas de transito" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="competenciaNormasComportamiento"
+                android:text="Capitulo III - Competencia - normas de comportamiento" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ActuacionEnCasoImposicion"
+                android:text="Capitulo IV - Actuacion en caso de imposicion de comparendo al
+                conductor para el transporte publico" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Recursos"
+                android:text="Capitulo V - Recursos" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ProdecimientoDanosaCosas"
+                android:text="Capitulo VI - Procedimiento en caso de daños a cosas" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ActuacionInfraccionesPenales"
+                android:text="Capitulo VII - Actuacion en caso de infracciones penales" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ActuacionCasoEmbriaguez"
+                android:text="Capitulo VIII - Actuacion en caso de embriaguez" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SancionesEspeciales"
+                android:text="Capitulo IX - Sanciones especiales" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="EjecucionSancion"
+                android:text="Capitulo X - Ejecucion de la sancion" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Caducidad"
+                android:text="Capitulo XI - Caducidad" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="AplicacionesDeOtros"
+                android:text="Capitulo XII - Aplicaciones de otros codigos y dispociciones finales" />
+
+            <TextView>
+
+            </TextView>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,11 +17,11 @@ public class start extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent intent = new Intent(start.this,MainActivity.class);
+                Intent intent = new Intent(start.this,Ninos.class);
 
                 startActivity(intent);
 
             }
-        },2000);
+        },5000);
     }
 }

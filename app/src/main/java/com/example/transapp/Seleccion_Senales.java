@@ -32,7 +32,7 @@ public class Seleccion_Senales extends AppCompatActivity {
     }
 
     public void buttonRegresar(View view){
-        Intent intent = new Intent(Seleccion_Senales.this, adultos.class);
+        Intent intent = new Intent(Seleccion_Senales.this, Ninos.class);
         startActivity(intent);
     }
 }
